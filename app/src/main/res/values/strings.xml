@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- CHANGE THE APP'S NAME AS YOU WISH -->
+    <string name="app_name">Photo editor pro</string>
+
+
+    <!-- IMPORTANT: REPLACE THE STRING BELOW WITH YOUR OWN BANNER UNIT ID YOU'LL GET FROM http://apps.admob.com -->
+    <string name="ADMOB_BANNER_UNIT_ID">ca-app-pub-3120536913205473/5975042732</string>
+
+
+</resources>
