@@ -106,7 +106,9 @@ public class Home extends AppCompatActivity implements ActivityCompat.OnRequestP
     public void openCamera() {
         //Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         //startActivityForResult(intent, CAMERA);
-
+        StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
+             StrictMode.setVmPolicy(builder.build());
+        //take a look at https://developer.android.com/reference/android/os/StrictMode.VmPolicy  to understand what StrictMode.VmPolicy do
         Intent intent= new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         File file = new File(Environment.getExternalStorageDirectory(),
                 "MyPhoto.jpg");
